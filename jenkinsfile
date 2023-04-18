@@ -13,7 +13,7 @@ pipeline {
             }
         }
         stage('Deploy') { 
-            steps { 
+            steps {  
                bat 'mvn package -f Mav'
             }
         }
